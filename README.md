@@ -1,5 +1,13 @@
 # File system tree
 
+## Developers
+
+[Rushikesh Kundkar](https://github.com/RRkundkar777)
+
+[Sagar Patil](https://github.com/sagargpatil62/)
+
+
+# Description
 1. Recursively displays all the files/folders in a tree like format.
 
 2. With no flags, displays the contents of current directory
