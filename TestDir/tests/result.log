@@ -1,0 +1,94 @@
+3a4,15
+> │   ├── AAfile
+> │   ├── AAfolder
+> │   │   ├── AAcode.deb
+> │   │   ├── AADolphin x86.zip
+> │   │   ├── AAgoogle-chrome-stable_current_amd64.deb
+> │   │   ├── AA.iml
+> │   │   ├── AA.java
+> │   │   ├── AA.json
+> │   │   ├── AA.layout
+> │   │   ├── AAmysql-shell_8.0.26-1ubuntu20.04_amd64.deb
+> │   │   ├── AAmysql-workbench-community_8.0.26-1ubuntu20.04_amd64.deb
+> │   │   ├── AAocs-url_3.1.0-0ubuntu1_amd64.deb
+7a20
+> │   ├── Acode.deb
+10a24,25
+> │   ├── ADolphin x86.zip
+> │   ├── Agoogle-chrome-stable_current_amd64.deb
+15a31,32
+> │   ├── Amysql-shell_8.0.26-1ubuntu20.04_amd64.deb
+> │   ├── Amysql-workbench-community_8.0.26-1ubuntu20.04_amd64.deb
+16a34
+> │   ├── Aocs-url_3.1.0-0ubuntu1_amd64.deb
+23,40d40
+< │   ├── AAfile
+< │   ├── AAfolder
+< │   │   ├── AA.iml
+< │   │   ├── AA.java
+< │   │   ├── AA.json
+< │   │   ├── AA.layout
+< │   │   ├── AAcode.deb
+< │   │   ├── AADolphin x86.zip
+< │   │   ├── AAgoogle-chrome-stable_current_amd64.deb
+< │   │   ├── AAmysql-shell_8.0.26-1ubuntu20.04_amd64.deb
+< │   │   ├── AAmysql-workbench-community_8.0.26-1ubuntu20.04_amd64.deb
+< │   │   ├── AAocs-url_3.1.0-0ubuntu1_amd64.deb
+< │   ├── Acode.deb
+< │   ├── ADolphin x86.zip
+< │   ├── Agoogle-chrome-stable_current_amd64.deb
+< │   ├── Amysql-shell_8.0.26-1ubuntu20.04_amd64.deb
+< │   ├── Amysql-workbench-community_8.0.26-1ubuntu20.04_amd64.deb
+< │   ├── Aocs-url_3.1.0-0ubuntu1_amd64.deb
+43,52c43,52
+< │   │   ├── AZ.iml
+< │   │   ├── AZ.java
+< │   │   ├── AZ.json
+< │   │   ├── AZ.layout
+< │   │   ├── AZcode.deb
+< │   │   ├── AZDolphin x86.zip
+< │   │   ├── AZgoogle-chrome-stable_current_amd64.deb
+< │   │   ├── AZmysql-shell_8.0.26-1ubuntu20.04_amd64.deb
+< │   │   ├── AZmysql-workbench-community_8.0.26-1ubuntu20.04_amd64.deb
+< │   │   ├── AZocs-url_3.1.0-0ubuntu1_amd64.deb
+---
+> │       ├── AZcode.deb
+> │       ├── AZDolphin x86.zip
+> │       ├── AZgoogle-chrome-stable_current_amd64.deb
+> │       ├── AZ.iml
+> │       ├── AZ.java
+> │       ├── AZ.json
+> │       ├── AZ.layout
+> │       ├── AZmysql-shell_8.0.26-1ubuntu20.04_amd64.deb
+> │       ├── AZmysql-workbench-community_8.0.26-1ubuntu20.04_amd64.deb
+> │       ├── AZocs-url_3.1.0-0ubuntu1_amd64.deb
+83a84,86
+> │   │   ├── ZAcode.deb
+> │   │   ├── ZADolphin x86.zip
+> │   │   ├── ZAgoogle-chrome-stable_current_amd64.deb
+88,90d90
+< │   │   ├── ZAcode.deb
+< │   │   ├── ZADolphin x86.zip
+< │   │   ├── ZAgoogle-chrome-stable_current_amd64.deb
+102,111c102,111
+< │   │   ├── ZZ.iml
+< │   │   ├── ZZ.java
+< │   │   ├── ZZ.json
+< │   │   ├── ZZ.layout
+< │   │   ├── ZZcode.deb
+< │   │   ├── ZZDolphin x86.zip
+< │   │   ├── ZZgoogle-chrome-stable_current_amd64.deb
+< │   │   ├── ZZmysql-shell_8.0.26-1ubuntu20.04_amd64.deb
+< │   │   ├── ZZmysql-workbench-community_8.0.26-1ubuntu20.04_amd64.deb
+< │   │   ├── ZZocs-url_3.1.0-0ubuntu1_amd64.deb
+---
+> │       ├── ZZcode.deb
+> │       ├── ZZDolphin x86.zip
+> │       ├── ZZgoogle-chrome-stable_current_amd64.deb
+> │       ├── ZZ.iml
+> │       ├── ZZ.java
+> │       ├── ZZ.json
+> │       ├── ZZ.layout
+> │       ├── ZZmysql-shell_8.0.26-1ubuntu20.04_amd64.deb
+> │       ├── ZZmysql-workbench-community_8.0.26-1ubuntu20.04_amd64.deb
+> │       ├── ZZocs-url_3.1.0-0ubuntu1_amd64.deb

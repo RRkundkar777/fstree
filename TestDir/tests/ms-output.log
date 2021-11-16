@@ -1,0 +1,80 @@
+.
+├── Afile
+├── Afolder
+│   ├── A.bash
+│   ├── A.c
+│   ├── A.cbp
+│   ├── A.class
+│   ├── A.cpp
+│   ├── A.css
+│   ├── A.depend
+│   ├── A.h
+│   ├── A.iml
+│   ├── A.java
+│   ├── A.json
+│   ├── A.layout
+│   ├── A.o
+│   ├── A.php
+│   ├── A.py
+│   ├── A.sh
+│   ├── A.swift
+│   ├── A.ts
+│   ├── A.vb
+│   ├── AAfile
+│   ├── AAfolder
+│   │   ├── AA.iml
+│   │   ├── AA.java
+│   │   ├── AA.json
+│   │   ├── AA.layout
+│   │   ├── AADolphin x86.zip
+│   ├── AZfile
+│   ├── AZfolder
+│   │   ├── AZ.iml
+│   │   ├── AZ.java
+│   │   ├── AZ.json
+│   │   ├── AZ.layout
+├── ms-tree
+├── tester.sh
+├── tests
+│   ├── ms-output.log
+│   ├── ms-output.txt
+│   ├── result.log
+│   ├── std-output.log
+│   ├── std-output.txt
+├── Zfile
+├── Zfolder
+│   ├── A.bash
+│   ├── A.c
+│   ├── A.cbp
+│   ├── A.class
+│   ├── A.cpp
+│   ├── A.css
+│   ├── A.depend
+│   ├── A.h
+│   ├── A.iml
+│   ├── A.java
+│   ├── A.json
+│   ├── A.layout
+│   ├── A.o
+│   ├── A.php
+│   ├── A.py
+│   ├── A.sh
+│   ├── A.swift
+│   ├── A.ts
+│   ├── A.vb
+│   ├── ZAfile
+│   ├── ZAfolder
+│   │   ├── ZA.iml
+│   │   ├── ZA.java
+│   │   ├── ZA.json
+│   │   ├── ZA.layout
+│   │   ├── ZADolphin x86.zip
+│   ├── ZZfile
+│   ├── ZZfolder
+│   │   ├── ZZ.iml
+│   │   ├── ZZ.java
+│   │   ├── ZZ.json
+│   │   ├── ZZ.layout
+│   │   ├── ZZDolphin x86.zip
+├── Zmainfile.cpp
+7 directories, 71 files
