@@ -113,7 +113,7 @@ int main(int argc, char *argv[])
             start->nextDirectory = create_tree(name);
             // Display the tree with only compressed files
             print_tree_programs(start);
-            num_dir_files();
+            num_dir_files_cp();
       }
 
       /*when ms-tree -d is passed --> show file tree only with directories */

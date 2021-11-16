@@ -293,14 +293,28 @@ void print_directories(node *start)
 // function to get number of files and directories
 void num_dir_files()
 {
-	num_files = num_files - num_dir;
-	num_dir = num_dir - 1;
+	num_files = num_files;
+	num_dir = num_dir;
+	if(num_dir == 1)
+	{
+		printf("\n\n%d directory, %d files\n", num_dir, num_files - num_dir);
+	}
+	else
+	{
+		printf("\n\n%d directories, %d files\n", num_dir - 1, num_files - num_dir);
+	}
+}
+
+void num_dir_files_cp()
+{
+	num_files = num_files;
+	num_dir = num_dir;
 	if(num_dir == 1)
 	{
 		printf("\n\n%d directory, %d files\n", num_dir, num_files);
 	}
 	else
 	{
-		printf("\n\n%d directories, %d files\n", num_dir, num_files);
+		printf("\n\n%d directories, %d files\n", num_dir - 1, num_files);
 	}
 }

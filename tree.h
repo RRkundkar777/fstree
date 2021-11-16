@@ -32,3 +32,4 @@ void print_tree_programs(node *start);
 void print_directories(node *start); 
 // function to get number of files and directories
 void num_dir_files();
+void num_dir_files_cp();

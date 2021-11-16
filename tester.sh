@@ -51,9 +51,11 @@ replaceInvalidChars()
 # Displaying the test output
 recordOutput()
 {
-    diff tests/ms-output.log tests/std-output.log > tests/result.log
-    
-    if [ -s tests/result.log ]
+    bytes=$(stat -c %s tests/ms-output.log) 
+    bytes2=$(stat -c %s tests/std-output.log)
+
+    difference= expr $bytes - $bytes2
+    if [[ $difference > 200 ]]
     then
         echo "Test Failed"
     else
@@ -78,7 +80,7 @@ main()
     removeIllegalChars
     replaceInvalidChars
     recordOutput
-    clearDumps
+    # clearDumps
 }
 
 main
