@@ -6,6 +6,10 @@
 // Include ADT
 #include "tree.h"
 
+// Bold
+#define BOLD_TEXT "\033[1m"
+#define BOLD_TEXT_END "\033[0m"
+
 // Driver Code
 int main(int argc, char *argv[])
 {
@@ -53,16 +57,23 @@ int main(int argc, char *argv[])
       /*when ms-tree -help is passed --> display the help*/
       if (argc >= 2 && strcmp(argv[1], "-help") == 0)
       {
-            printf("\nThis is the help section: \n");
-            printf("\nWithout flags it prints all the files/folders in current directory\n");
-            printf("\nThe various flags are : \n");
-            printf("\n-i : Prints all the files and folders recursively in tree format\n");
-            printf("\n-u : user details \n");
-            printf("\n-v : prints the version of the tree\n");
-            printf("\n-help : prints the help section\n\n");
-            printf("\n-cf : Print all the compressed files in hierchial manner\n");
-            printf("\n-pf : Prints all the program files in tree hierchial structure\n");
-            printf("\n-d : This prints all the folders in a given directory\n");
+            printf("%s%s%s",BOLD_TEXT,"\nHelp Section: \n",BOLD_TEXT_END);
+
+            printf("%s%s%s",BOLD_TEXT,"\nSYNOPSIS\n",BOLD_TEXT_END);
+            printf("\n  ms-tree [OPTIONS]\n");
+
+            printf("%s%s%s",BOLD_TEXT,"\nDESCRIPTION\n",BOLD_TEXT_END);
+            printf("\nms-tree searches for all files and folder in a directory. It prints all the files and folders in a hierarchial tree format. We can also filter the tree output based on the option we supply it. For example showing only code files\n");
+
+            printf("%s%s%s",BOLD_TEXT,"\nOPTIONS\n",BOLD_TEXT_END);
+            
+            printf("\n%s-i%s : Prints all the files and folders recursively in tree format\n",BOLD_TEXT,BOLD_TEXT_END);
+            printf("\n%s-u%s :Enlists user and group details \n",BOLD_TEXT,BOLD_TEXT_END);
+            printf("\n%s-v%s : Prints version of the ms-tree\n",BOLD_TEXT,BOLD_TEXT_END);
+            printf("\n%s-help%s : Prints this help\n",BOLD_TEXT,BOLD_TEXT_END);
+            printf("\n%s-cf%s : Prints all the compressed files in hierchial manner\n",BOLD_TEXT,BOLD_TEXT_END);
+            printf("\n%s-pf%s : Prints all the program files in hierchial manner\n",BOLD_TEXT,BOLD_TEXT_END);
+            printf("\n%s-d%s : Prints only folders in a directory\n",BOLD_TEXT,BOLD_TEXT_END);
       }
 
       /* when ms-tree -v is passed --> display the version */
