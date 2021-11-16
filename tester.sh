@@ -3,7 +3,7 @@
 # Script to test the ms-tree program
 makeDir()
 {
-    if [ ! -d tests]
+    if [ ! -d tests ]
     then 
         mkdir tests
     fi
@@ -18,7 +18,7 @@ createLogs(){
 # Getting output of program
 getRawOutput(){
     ./ms-tree > tests/ms-output.txt;
-    tree > tests/std-output.txt;
+    tree -a > tests/std-output.txt;
 }
 
 # Processing the output files
@@ -57,8 +57,8 @@ recordOutput()
         bytes=$(stat -c %s tests/ms-output.log) 
         bytes2=$(stat -c %s tests/std-output.log)
 
-        difference="$bytes - $bytes2" | bc
-        if [[ $difference > 200 ]]
+        difference=$(echo "$bytes - $bytes2" | bc)
+        if [[ $difference -gt 200 ]]
         then
             echo "Test Failed"
         else
@@ -79,6 +79,7 @@ clearDumps()
 # Driver Code
 main()
 {
+    makeDir
     createLogs
     getRawOutput
     removeBlankLines
